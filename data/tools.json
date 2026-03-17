@@ -1,0 +1,876 @@
+[
+  {
+    "slug": "openclaw",
+    "name": "OpenClaw",
+    "url": "https://docs.openclaw.ai",
+    "category": "Automation platforms",
+    "pricing": "Free",
+    "useCase": "Personal automation agent runtime with channels, cron, and tool plugins.",
+    "bestFor": [
+      "Founders",
+      "Ops"
+    ],
+    "tags": [
+      "agents",
+      "automation",
+      "cron"
+    ],
+    "featured": true,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "url": "https://n8n.io",
+    "category": "Automation platforms",
+    "pricing": "Paid",
+    "useCase": "Workflow automation with self-hosting and integrations (Zapier alternative).",
+    "bestFor": [
+      "Founders",
+      "Ops"
+    ],
+    "tags": [
+      "workflows",
+      "integrations",
+      "self-hosted"
+    ],
+    "featured": true,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "zapier",
+    "name": "Zapier",
+    "url": "https://zapier.com",
+    "category": "Automation platforms",
+    "pricing": "Paid",
+    "useCase": "Connect apps to automate repetitive workflows.",
+    "bestFor": [
+      "Founders",
+      "Ops"
+    ],
+    "tags": [
+      "workflows",
+      "integrations"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "make",
+    "name": "Make (Integromat)",
+    "url": "https://www.make.com",
+    "category": "Automation platforms",
+    "pricing": "Paid",
+    "useCase": "Visual automation platform for multi-step scenarios.",
+    "bestFor": [
+      "Founders",
+      "Ops"
+    ],
+    "tags": [
+      "workflows",
+      "integrations"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "pipedream",
+    "name": "Pipedream",
+    "url": "https://pipedream.com",
+    "category": "Automation platforms",
+    "pricing": "Trial",
+    "useCase": "Developer-first workflow automation with code steps.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "workflows",
+      "api"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "activepieces",
+    "name": "Activepieces",
+    "url": "https://www.activepieces.com",
+    "category": "Automation platforms",
+    "pricing": "Free",
+    "useCase": "Open-source automation builder for internal workflows.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "open-source",
+      "workflows",
+      "self-hosted"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "huginn",
+    "name": "Huginn",
+    "url": "https://github.com/huginn/huginn",
+    "category": "Automation platforms",
+    "pricing": "Free",
+    "useCase": "Open-source system to build agents that monitor and act on events.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "open-source",
+      "agents",
+      "self-hosted"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "airbyte",
+    "name": "Airbyte",
+    "url": "https://airbyte.com",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "ELT pipelines to sync data between sources and destinations.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "data",
+      "etl"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "metabase",
+    "name": "Metabase",
+    "url": "https://www.metabase.com",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "Self-serve BI and dashboards for teams.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "analytics",
+      "dashboards"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "posthog",
+    "name": "PostHog",
+    "url": "https://posthog.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Product analytics + feature flags + session replay.",
+    "bestFor": [
+      "Dev",
+      "Founders"
+    ],
+    "tags": [
+      "analytics",
+      "feature-flags"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "langchain",
+    "name": "LangChain",
+    "url": "https://www.langchain.com",
+    "category": "Agent frameworks",
+    "pricing": "Free",
+    "useCase": "Framework for building LLM apps and agentic workflows.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "framework",
+      "agents",
+      "llm"
+    ],
+    "featured": true,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "langgraph",
+    "name": "LangGraph",
+    "url": "https://langchain-ai.github.io/langgraph/",
+    "category": "Agent frameworks",
+    "pricing": "Free",
+    "useCase": "Graph-based agent orchestration for complex workflows.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "agents",
+      "orchestration",
+      "graphs"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "autogen",
+    "name": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "category": "Agent frameworks",
+    "pricing": "Free",
+    "useCase": "Multi-agent conversation and tool-use framework by Microsoft.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "open-source",
+      "multi-agent"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "crewai",
+    "name": "CrewAI",
+    "url": "https://www.crewai.com",
+    "category": "Agent frameworks",
+    "pricing": "Trial",
+    "useCase": "Team-of-agents framework to run role-based workflows.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "agents",
+      "workflow"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "semantic-kernel",
+    "name": "Semantic Kernel",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "category": "Agent frameworks",
+    "pricing": "Free",
+    "useCase": "SDK for integrating LLMs with plugins and planners.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "open-source",
+      "sdk"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "haystack",
+    "name": "Haystack",
+    "url": "https://haystack.deepset.ai",
+    "category": "Agent frameworks",
+    "pricing": "Free",
+    "useCase": "Framework for RAG pipelines and production QA.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "rag",
+      "search"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "apify",
+    "name": "Apify",
+    "url": "https://apify.com",
+    "category": "Web scraping & extraction",
+    "pricing": "Paid",
+    "useCase": "Web scraping platform with actors and datasets.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "scraping",
+      "datasets"
+    ],
+    "featured": true,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "zyte",
+    "name": "Zyte",
+    "url": "https://www.zyte.com",
+    "category": "Web scraping & extraction",
+    "pricing": "Paid",
+    "useCase": "Managed web scraping APIs and proxy infrastructure.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "scraping",
+      "proxy"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "browserless",
+    "name": "Browserless",
+    "url": "https://www.browserless.io",
+    "category": "Web scraping & extraction",
+    "pricing": "Paid",
+    "useCase": "Headless browser automation as a service.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "browser",
+      "automation"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "playwright",
+    "name": "Playwright",
+    "url": "https://playwright.dev",
+    "category": "Web scraping & extraction",
+    "pricing": "Free",
+    "useCase": "Browser automation for testing and scraping.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "browser",
+      "automation",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "scrapyd",
+    "name": "Scrapyd",
+    "url": "https://scrapyd.readthedocs.io",
+    "category": "Web scraping & extraction",
+    "pricing": "Free",
+    "useCase": "Deploy and run Scrapy spiders.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "scrapy",
+      "spiders"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "scrapy",
+    "name": "Scrapy",
+    "url": "https://scrapy.org",
+    "category": "Web scraping & extraction",
+    "pricing": "Free",
+    "useCase": "Python framework for web crawling and scraping.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "scraping",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "jina-reader",
+    "name": "Jina AI Reader",
+    "url": "https://r.jina.ai",
+    "category": "Web scraping & extraction",
+    "pricing": "Free",
+    "useCase": "Fetch clean Markdown for public web pages.",
+    "bestFor": [
+      "Dev",
+      "SEO"
+    ],
+    "tags": [
+      "extraction",
+      "markdown"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "firecrawl",
+    "name": "Firecrawl",
+    "url": "https://www.firecrawl.dev",
+    "category": "Web scraping & extraction",
+    "pricing": "Trial",
+    "useCase": "Crawl websites into clean Markdown/structured data.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "crawl",
+      "extraction"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "ahrefs",
+    "name": "Ahrefs",
+    "url": "https://ahrefs.com",
+    "category": "SEO & content ops",
+    "pricing": "Paid",
+    "useCase": "SEO suite for keywords, backlinks, and site audits.",
+    "bestFor": [
+      "SEO"
+    ],
+    "tags": [
+      "seo",
+      "keywords"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "semrush",
+    "name": "Semrush",
+    "url": "https://www.semrush.com",
+    "category": "SEO & content ops",
+    "pricing": "Paid",
+    "useCase": "SEO + content marketing toolkit.",
+    "bestFor": [
+      "SEO"
+    ],
+    "tags": [
+      "seo",
+      "content"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "screaming-frog",
+    "name": "Screaming Frog SEO Spider",
+    "url": "https://www.screamingfrog.co.uk/seo-spider/",
+    "category": "SEO & content ops",
+    "pricing": "Paid",
+    "useCase": "Desktop crawler for technical SEO audits.",
+    "bestFor": [
+      "SEO"
+    ],
+    "tags": [
+      "crawl",
+      "seo"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "surferseo",
+    "name": "Surfer SEO",
+    "url": "https://surferseo.com",
+    "category": "SEO & content ops",
+    "pricing": "Paid",
+    "useCase": "On-page content optimization recommendations.",
+    "bestFor": [
+      "SEO"
+    ],
+    "tags": [
+      "content",
+      "on-page"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "google-search-console",
+    "name": "Google Search Console",
+    "url": "https://search.google.com/search-console",
+    "category": "SEO & content ops",
+    "pricing": "Free",
+    "useCase": "Monitor indexing, search queries, and technical issues.",
+    "bestFor": [
+      "SEO",
+      "Founders"
+    ],
+    "tags": [
+      "gsc",
+      "indexing"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "lighthouse",
+    "name": "Lighthouse",
+    "url": "https://developer.chrome.com/docs/lighthouse/",
+    "category": "SEO & content ops",
+    "pricing": "Free",
+    "useCase": "Performance and best practices audit for web pages.",
+    "bestFor": [
+      "Dev",
+      "SEO"
+    ],
+    "tags": [
+      "performance",
+      "audit"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "sentry",
+    "name": "Sentry",
+    "url": "https://sentry.io",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Error tracking and performance monitoring.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "monitoring",
+      "errors"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "uptimerobot",
+    "name": "UptimeRobot",
+    "url": "https://uptimerobot.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Simple uptime monitoring with alerts.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "monitoring",
+      "uptime"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "grafana",
+    "name": "Grafana",
+    "url": "https://grafana.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Free",
+    "useCase": "Observability dashboards for metrics/logs/traces.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "observability",
+      "dashboards"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "prometheus",
+    "name": "Prometheus",
+    "url": "https://prometheus.io",
+    "category": "DevOps & monitoring",
+    "pricing": "Free",
+    "useCase": "Metrics collection and alerting toolkit.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "metrics",
+      "alerts"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "exa",
+    "name": "Exa Search API",
+    "url": "https://exa.ai",
+    "category": "Data & search",
+    "pricing": "Paid",
+    "useCase": "Search API for web results and extraction.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "search",
+      "api"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "meilisearch",
+    "name": "Meilisearch",
+    "url": "https://www.meilisearch.com",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "Fast search engine for apps and sites.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "search",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "qdrant",
+    "name": "Qdrant",
+    "url": "https://qdrant.tech",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "Vector database for semantic search.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "vector-db",
+      "search"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "weaviate",
+    "name": "Weaviate",
+    "url": "https://weaviate.io",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "Vector database with hybrid search.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "vector-db",
+      "search"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "pgvector",
+    "name": "pgvector",
+    "url": "https://github.com/pgvector/pgvector",
+    "category": "Data & search",
+    "pricing": "Free",
+    "useCase": "Vector similarity search in Postgres.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "postgres",
+      "vector-db",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "airtable",
+    "name": "Airtable",
+    "url": "https://airtable.com",
+    "category": "Automation platforms",
+    "pricing": "Paid",
+    "useCase": "Spreadsheet-database hybrid for lightweight ops automation.",
+    "bestFor": [
+      "Ops",
+      "Founders"
+    ],
+    "tags": [
+      "database",
+      "workflows"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "url": "https://www.notion.so",
+    "category": "Automation platforms",
+    "pricing": "Trial",
+    "useCase": "Docs + database for building lightweight internal systems.",
+    "bestFor": [
+      "Ops",
+      "Founders"
+    ],
+    "tags": [
+      "docs",
+      "database"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "linear",
+    "name": "Linear",
+    "url": "https://linear.app",
+    "category": "Automation platforms",
+    "pricing": "Paid",
+    "useCase": "Issue tracking with strong API for automation.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "issues",
+      "api"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "github-actions",
+    "name": "GitHub Actions",
+    "url": "https://github.com/features/actions",
+    "category": "Automation platforms",
+    "pricing": "Free",
+    "useCase": "CI/CD and automation workflows triggered by events.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "ci",
+      "automation"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "cloudflare-workers",
+    "name": "Cloudflare Workers",
+    "url": "https://workers.cloudflare.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Paid",
+    "useCase": "Edge compute for lightweight APIs and automation.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "edge",
+      "api"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "url": "https://vercel.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Deploy Next.js and web apps with previews.",
+    "bestFor": [
+      "Dev",
+      "Founders"
+    ],
+    "tags": [
+      "deploy",
+      "preview"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "railway",
+    "name": "Railway",
+    "url": "https://railway.app",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Deploy databases and services quickly.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "deploy"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "supabase",
+    "name": "Supabase",
+    "url": "https://supabase.com",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "Postgres + auth + storage backend platform.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "database",
+      "auth"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "planetScale",
+    "name": "PlanetScale",
+    "url": "https://planetscale.com",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "Serverless MySQL platform for apps.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "database"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "cloudinary",
+    "name": "Cloudinary",
+    "url": "https://cloudinary.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Paid",
+    "useCase": "Media storage and transformations.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "media",
+      "cdn"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "resend",
+    "name": "Resend",
+    "url": "https://resend.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Email API for product notifications.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "email",
+      "api"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  }
+]
