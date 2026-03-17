@@ -872,5 +872,857 @@
     ],
     "featured": false,
     "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "dify",
+    "name": "Dify",
+    "url": "https://dify.ai",
+    "category": "Automation platforms",
+    "pricing": "Trial",
+    "useCase": "Open-source LLM app platform to build workflows and agents.",
+    "bestFor": [
+      "Dev",
+      "Founders"
+    ],
+    "tags": [
+      "agents",
+      "workflow",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "flowise",
+    "name": "Flowise",
+    "url": "https://flowiseai.com",
+    "category": "Agent frameworks",
+    "pricing": "Trial",
+    "useCase": "Drag-and-drop LLM flow builder for LangChain apps.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "langchain",
+      "builder"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "llamaindex",
+    "name": "LlamaIndex",
+    "url": "https://www.llamaindex.ai",
+    "category": "Agent frameworks",
+    "pricing": "Trial",
+    "useCase": "Data framework for LLM applications and RAG.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "rag",
+      "data"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "openwebui",
+    "name": "OpenWebUI",
+    "url": "https://github.com/open-webui/open-webui",
+    "category": "Automation platforms",
+    "pricing": "Free",
+    "useCase": "Self-hosted web UI for LLMs with tools and pipelines.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "open-source",
+      "self-hosted"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "anythingllm",
+    "name": "AnythingLLM",
+    "url": "https://anythingllm.com",
+    "category": "Automation platforms",
+    "pricing": "Trial",
+    "useCase": "Local/hosted workspace for RAG and agent-like workflows.",
+    "bestFor": [
+      "Founders",
+      "Dev"
+    ],
+    "tags": [
+      "rag",
+      "workspace"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "langfuse",
+    "name": "Langfuse",
+    "url": "https://langfuse.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "LLM observability: traces, evals, prompt management.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "llm",
+      "observability"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "helicone",
+    "name": "Helicone",
+    "url": "https://www.helicone.ai",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "LLM API observability and cost tracking.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "llm",
+      "monitoring"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "opentelemetry",
+    "name": "OpenTelemetry",
+    "url": "https://opentelemetry.io",
+    "category": "DevOps & monitoring",
+    "pricing": "Free",
+    "useCase": "Standard for traces/metrics/logs, useful for agent observability.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "observability",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "airflow",
+    "name": "Airflow",
+    "url": "https://airflow.apache.org",
+    "category": "Automation platforms",
+    "pricing": "Free",
+    "useCase": "Workflow orchestration for scheduled pipelines.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "orchestration",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "prefect",
+    "name": "Prefect",
+    "url": "https://www.prefect.io",
+    "category": "Automation platforms",
+    "pricing": "Trial",
+    "useCase": "Workflow orchestration with Python-first DX.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "orchestration"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "dagster",
+    "name": "Dagster",
+    "url": "https://dagster.io",
+    "category": "Automation platforms",
+    "pricing": "Trial",
+    "useCase": "Data orchestration platform with strong dev tooling.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "orchestration",
+      "data"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "temporal",
+    "name": "Temporal",
+    "url": "https://temporal.io",
+    "category": "Automation platforms",
+    "pricing": "Trial",
+    "useCase": "Durable workflow engine for long-running processes.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "workflows",
+      "reliability"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "kestra",
+    "name": "Kestra",
+    "url": "https://kestra.io",
+    "category": "Automation platforms",
+    "pricing": "Trial",
+    "useCase": "Orchestration platform for data/automation workflows.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "orchestration"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "puppeteer",
+    "name": "Puppeteer",
+    "url": "https://pptr.dev",
+    "category": "Web scraping & extraction",
+    "pricing": "Free",
+    "useCase": "Node.js browser automation library.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "browser",
+      "automation"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "crawlee",
+    "name": "Crawlee",
+    "url": "https://crawlee.dev",
+    "category": "Web scraping & extraction",
+    "pricing": "Free",
+    "useCase": "Node.js web scraping and browser automation framework.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "scraping",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "oxylabs",
+    "name": "Oxylabs",
+    "url": "https://oxylabs.io",
+    "category": "Web scraping & extraction",
+    "pricing": "Paid",
+    "useCase": "Proxies and scraping APIs for hard targets.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "proxy",
+      "scraping"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "bright-data",
+    "name": "Bright Data",
+    "url": "https://brightdata.com",
+    "category": "Web scraping & extraction",
+    "pricing": "Paid",
+    "useCase": "Proxy network and data collection platform.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "proxy",
+      "scraping"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "serpapi",
+    "name": "SerpAPI",
+    "url": "https://serpapi.com",
+    "category": "Data & search",
+    "pricing": "Paid",
+    "useCase": "Search API for SERP data.",
+    "bestFor": [
+      "Dev",
+      "SEO"
+    ],
+    "tags": [
+      "search",
+      "api"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "algolia",
+    "name": "Algolia",
+    "url": "https://www.algolia.com",
+    "category": "Data & search",
+    "pricing": "Paid",
+    "useCase": "Hosted search and discovery platform.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "search",
+      "hosted"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "typesense",
+    "name": "Typesense",
+    "url": "https://typesense.org",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "Open-source search engine with typo tolerance.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "search",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "cloudflare-r2",
+    "name": "Cloudflare R2",
+    "url": "https://www.cloudflare.com/products/r2/",
+    "category": "DevOps & monitoring",
+    "pricing": "Paid",
+    "useCase": "Object storage for app assets and datasets.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "storage"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "minio",
+    "name": "MinIO",
+    "url": "https://min.io",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "S3-compatible object storage.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "storage",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "redis",
+    "name": "Redis",
+    "url": "https://redis.io",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "In-memory data store useful for queues/caching.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "cache",
+      "queue"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "bullmq",
+    "name": "BullMQ",
+    "url": "https://bullmq.io",
+    "category": "Automation platforms",
+    "pricing": "Free",
+    "useCase": "Node.js job queue built on Redis.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "queue",
+      "jobs"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "celery",
+    "name": "Celery",
+    "url": "https://docs.celeryq.dev",
+    "category": "Automation platforms",
+    "pricing": "Free",
+    "useCase": "Python distributed task queue.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "queue",
+      "jobs"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "rq",
+    "name": "RQ",
+    "url": "https://python-rq.org",
+    "category": "Automation platforms",
+    "pricing": "Free",
+    "useCase": "Simple Python job queues with Redis.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "queue"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "opensearch",
+    "name": "OpenSearch",
+    "url": "https://opensearch.org",
+    "category": "Data & search",
+    "pricing": "Free",
+    "useCase": "Open-source search and analytics suite.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "search",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "elasticsearch",
+    "name": "Elasticsearch",
+    "url": "https://www.elastic.co/elasticsearch",
+    "category": "Data & search",
+    "pricing": "Paid",
+    "useCase": "Search and analytics engine.",
+    "bestFor": [
+      "Dev",
+      "Ops"
+    ],
+    "tags": [
+      "search"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "clickhouse",
+    "name": "ClickHouse",
+    "url": "https://clickhouse.com",
+    "category": "Data & search",
+    "pricing": "Trial",
+    "useCase": "Fast analytics database for events/logs.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "analytics",
+      "database"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "bigquery",
+    "name": "BigQuery",
+    "url": "https://cloud.google.com/bigquery",
+    "category": "Data & search",
+    "pricing": "Paid",
+    "useCase": "Serverless data warehouse.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "data-warehouse"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "looker-studio",
+    "name": "Looker Studio",
+    "url": "https://lookerstudio.google.com",
+    "category": "Data & search",
+    "pricing": "Free",
+    "useCase": "Dashboards and reports.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "dashboards"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "plausible",
+    "name": "Plausible",
+    "url": "https://plausible.io",
+    "category": "DevOps & monitoring",
+    "pricing": "Paid",
+    "useCase": "Privacy-friendly analytics.",
+    "bestFor": [
+      "Founders"
+    ],
+    "tags": [
+      "analytics"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "umami",
+    "name": "Umami",
+    "url": "https://umami.is",
+    "category": "DevOps & monitoring",
+    "pricing": "Free",
+    "useCase": "Open-source analytics.",
+    "bestFor": [
+      "Founders",
+      "Dev"
+    ],
+    "tags": [
+      "analytics",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "netdata",
+    "name": "Netdata",
+    "url": "https://www.netdata.cloud",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Real-time infrastructure monitoring.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "monitoring"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "better-uptime",
+    "name": "Better Uptime",
+    "url": "https://betteruptime.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Paid",
+    "useCase": "Uptime + incident management.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "uptime",
+      "alerts"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "datadog",
+    "name": "Datadog",
+    "url": "https://www.datadoghq.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Paid",
+    "useCase": "Monitoring and observability suite.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "observability"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "new-relic",
+    "name": "New Relic",
+    "url": "https://newrelic.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Paid",
+    "useCase": "Observability platform.",
+    "bestFor": [
+      "Ops"
+    ],
+    "tags": [
+      "observability"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "category": "Agent frameworks",
+    "pricing": "Paid",
+    "useCase": "AI pair programmer to speed development.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "coding",
+      "ai"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "url": "https://cursor.com",
+    "category": "Agent frameworks",
+    "pricing": "Paid",
+    "useCase": "AI code editor for agentic coding workflows.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "coding",
+      "editor"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "continue",
+    "name": "Continue",
+    "url": "https://continue.dev",
+    "category": "Agent frameworks",
+    "pricing": "Free",
+    "useCase": "Open-source AI code assistant for IDEs.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "coding",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "sourcegraph-cody",
+    "name": "Sourcegraph Cody",
+    "url": "https://sourcegraph.com/cody",
+    "category": "Agent frameworks",
+    "pricing": "Trial",
+    "useCase": "AI coding assistant with codebase context.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "coding"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "browser-use",
+    "name": "Browser Use",
+    "url": "https://github.com/browser-use/browser-use",
+    "category": "Agent frameworks",
+    "pricing": "Free",
+    "useCase": "Open-source browser automation agent library.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "agents",
+      "browser",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "autogpt",
+    "name": "AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "category": "Agent frameworks",
+    "pricing": "Free",
+    "useCase": "Experimental autonomous agent project.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "agents",
+      "open-source"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "openai-assistants",
+    "name": "OpenAI Assistants",
+    "url": "https://platform.openai.com/docs/assistants",
+    "category": "Agent frameworks",
+    "pricing": "Paid",
+    "useCase": "Hosted tool-using assistant API.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "llm",
+      "tools"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "anthropic-tool-use",
+    "name": "Anthropic Tool Use",
+    "url": "https://docs.anthropic.com",
+    "category": "Agent frameworks",
+    "pricing": "Paid",
+    "useCase": "Tool use + structured outputs for agents.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "llm",
+      "tools"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "replicate",
+    "name": "Replicate",
+    "url": "https://replicate.com",
+    "category": "Agent frameworks",
+    "pricing": "Paid",
+    "useCase": "Run ML models via API for automation workflows.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "ml",
+      "api"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "hugging-face",
+    "name": "Hugging Face",
+    "url": "https://huggingface.co",
+    "category": "Agent frameworks",
+    "pricing": "Trial",
+    "useCase": "Models, datasets, inference endpoints.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "models",
+      "inference"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "modal",
+    "name": "Modal",
+    "url": "https://modal.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Serverless GPU/CPU compute for jobs.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "compute",
+      "jobs"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "render",
+    "name": "Render",
+    "url": "https://render.com",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Deploy web services and cron jobs.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "deploy"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
+  },
+  {
+    "slug": "fly-io",
+    "name": "Fly.io",
+    "url": "https://fly.io",
+    "category": "DevOps & monitoring",
+    "pricing": "Trial",
+    "useCase": "Run apps close to users with global VMs.",
+    "bestFor": [
+      "Dev"
+    ],
+    "tags": [
+      "deploy"
+    ],
+    "featured": false,
+    "addedAt": "2026-03-18"
   }
 ]
