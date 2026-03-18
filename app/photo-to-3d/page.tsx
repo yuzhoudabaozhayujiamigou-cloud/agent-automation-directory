@@ -3,7 +3,7 @@ import Link from "next/link";
 export const metadata = {
   title: "Photo to 3D (GLB) for E-commerce | 48h delivery",
   description:
-    "Turn a single product photo into a web-ready 3D model (GLB) + turntable video. Manual QA and optimization. Rework or refund if it doesn't meet acceptance criteria.",
+    "Turn one (or a few) product photos into a web-ready 3D model (GLB) plus an 8–12s turntable video. Human-in-the-loop QA and optimization. Clear rework/refund policy.",
 };
 
 function Badge({ children }: { children: React.ReactNode }) {
@@ -15,21 +15,18 @@ export default function PhotoTo3DPage() {
     <main className="container">
       <header className="card" style={{ marginBottom: 16 }}>
         <Badge>Service</Badge>
-        <h1 style={{ margin: "12px 0 6px" }}>Photo → 3D (GLB) for E-commerce</h1>
+        <h1 style={{ margin: "12px 0 6px" }}>Turn a product photo into a clean 3D model (GLB) — in 48 hours.</h1>
         <p className="small" style={{ marginTop: 0 }}>
-          Within 48 hours, we deliver a <strong>web-ready GLB</strong> plus an <strong>8–12s turntable video</strong>, with manual QA and
-          optimization for file size, polycount, and textures.
+          Send one or a few photos. We’ll build a <strong>web-ready GLB</strong> and a short <strong>8–12s turntable video</strong>, then
+          manually QA and optimize it for e-commerce use.
         </p>
 
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginTop: 12 }}>
           <Link className="btn primary" href="/submit">
-            Submit a product photo
+            Submit photos for a quote
           </Link>
-          <a className="btn" href="#examples">
-            Examples
-          </a>
-          <a className="btn" href="#pricing">
-            Pricing
+          <a className="btn" href="#deliverables">
+            Deliverables
           </a>
           <a className="btn" href="#faq">
             FAQ
@@ -37,67 +34,62 @@ export default function PhotoTo3DPage() {
         </div>
 
         <p className="small" style={{ marginTop: 12, opacity: 0.85 }}>
-          Payment links coming soon. For now, submit via the form and we’ll confirm the plan + delivery time.
+          Tell us what the product is, share your photos, and your target use (Shopify/website/AR). We’ll confirm feasibility and
+          price before we start.
+        </p>
+
+        <p className="small" style={{ marginTop: 10, opacity: 0.85 }}>
+          Not happy with the first pass? We’ll do <strong>one revision round</strong> — or refund if we can’t meet the agreed target.
         </p>
       </header>
 
-      <section className="card" style={{ marginBottom: 16 }}>
+      <section id="deliverables" className="card" style={{ marginBottom: 16 }}>
         <h2 style={{ marginTop: 0 }}>What you get</h2>
-        <ul className="small" style={{ lineHeight: 1.7 }}>
-          <li>
-            <strong>GLB model</strong> optimized for the web (size, polycount, texture compression where appropriate).
-          </li>
-          <li>
-            <strong>Turntable video</strong> (8–12 seconds) suitable for product pages and ads.
-          </li>
-          <li>
-            <strong>Viewer-ready preview</strong> so you can share a link internally before publishing.
-          </li>
-        </ul>
 
-        <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))" }}>
+        <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))" }}>
           <div className="card">
-            <h3 style={{ marginTop: 0 }}>Best for</h3>
+            <h3 style={{ marginTop: 0 }}>Outputs</h3>
             <ul className="small" style={{ lineHeight: 1.7 }}>
-              <li>New product launches</li>
-              <li>Ads creatives needing 3D motion</li>
-              <li>Teams without in-house 3D artists</li>
+              <li>
+                <strong>GLB</strong> (web-friendly 3D model)
+              </li>
+              <li>
+                <strong>8–12s turntable video</strong> for product pages and ads
+              </li>
+            </ul>
+            <p className="small" style={{ opacity: 0.85 }}>
+              If you have a preferred background or lighting style, include a reference.
+            </p>
+          </div>
+
+          <div className="card">
+            <h3 style={{ marginTop: 0 }}>Why it’s useful</h3>
+            <ul className="small" style={{ lineHeight: 1.7 }}>
+              <li>
+                <strong>Faster listings & richer visuals:</strong> add a 3D spin without a full 3D pipeline.
+              </li>
+              <li>
+                <strong>Built for the web:</strong> practical optimization so it loads reasonably and looks consistent.
+              </li>
+              <li>
+                <strong>Human-in-the-loop quality:</strong> we check geometry, textures, and presentation before delivery.
+              </li>
             </ul>
           </div>
+
           <div className="card">
-            <h3 style={{ marginTop: 0 }}>Not ideal (single-image limits)</h3>
+            <h3 style={{ marginTop: 0 }}>Limits (be transparent)</h3>
             <ul className="small" style={{ lineHeight: 1.7 }}>
-              <li>Hidden geometry (backsides) not visible in the photo</li>
-              <li>Heavy occlusion</li>
-              <li>Challenging materials like glass / mirror-like surfaces</li>
+              <li>
+                <strong>Input limits output:</strong> blurry/low-light/occluded photos can’t produce accurate details.
+              </li>
+              <li>
+                <strong>Hard categories:</strong> transparent/reflective/glossy, hair/fur, intricate cutouts.
+              </li>
+              <li>
+                <strong>Expectation:</strong> commerce-ready, not cinematic VFX or engineering-grade precision.
+              </li>
             </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="examples" className="card" style={{ marginBottom: 16 }}>
-        <h2 style={{ marginTop: 0 }}>Examples</h2>
-        <p className="small">
-          We’ll add real samples here as we deliver the first batch. If you want a quick quality check, submit one item and we’ll share a preview link.
-        </p>
-      </section>
-
-      <section id="pricing" className="card" style={{ marginBottom: 16 }}>
-        <h2 style={{ marginTop: 0 }}>Pricing</h2>
-        <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))" }}>
-          <div className="card">
-            <h3 style={{ marginTop: 0 }}>$9 per item</h3>
-            <p className="small">48h delivery, one photo input, GLB + turntable video.</p>
-            <Link className="btn primary" href="/submit">
-              Submit
-            </Link>
-          </div>
-          <div className="card">
-            <h3 style={{ marginTop: 0 }}>$49 per 10 items</h3>
-            <p className="small">Batch processing, best for ads and catalogs.</p>
-            <Link className="btn primary" href="/submit">
-              Submit batch
-            </Link>
           </div>
         </div>
       </section>
@@ -105,29 +97,40 @@ export default function PhotoTo3DPage() {
       <section id="faq" className="card">
         <h2 style={{ marginTop: 0 }}>FAQ</h2>
 
-        <h3>Is this “research-grade” or production-ready?</h3>
+        <h3>What do I need to send you?</h3>
         <p className="small">
-          We track research trends (e.g., Apple LiTo: better view-dependent highlights/reflections), but our delivery is workflow-first: we optimize assets so they
-          can actually ship.
+          Ideally 3–8 clear photos (front/back/sides + one close-up). If you only have one photo, we can still try — we’ll tell you up front what will be guessed vs. what
+          will be accurate.
         </p>
 
-        <h3>Refund / rework policy?</h3>
+        <h3>What exactly do I get back?</h3>
         <p className="small">
-          If the output doesn’t meet the agreed acceptance criteria, we offer rework or a refund. Single-image limits apply (backsides/occlusion/materials).
+          A <strong>GLB</strong> file plus an <strong>8–12 second turntable video</strong> suitable for product pages and ads.
         </p>
 
-        <h3>What makes a good input photo?</h3>
-        <p className="small">Front/hero shot, clean background, minimal occlusion, good lighting. The clearer the shape, the better the 3D.</p>
+        <h3>How long does it take?</h3>
+        <p className="small">
+          Typical delivery is <strong>within 48 hours</strong> after we confirm feasibility and you approve the quote. If the product is unusually complex, we’ll give a realistic ETA before starting.
+        </p>
+
+        <h3>What’s your rework / refund policy?</h3>
+        <p className="small">
+          You get <strong>one revision round</strong> (reasonable tweaks to shape/texture/presentation). If we can’t reach the agreed “commerce-ready” target after that, we’ll <strong>refund</strong>.
+        </p>
 
         <div style={{ marginTop: 14 }}>
-          <Link className="btn" href="/">
-            Back to directory
+          <Link className="btn" href="/submit">
+            Submit photos
           </Link>
+          <span style={{ marginLeft: 10, opacity: 0.8 }} className="small">
+            Or go back to the <Link href="/">directory</Link>.
+          </span>
         </div>
       </section>
 
       <footer className="small" style={{ marginTop: 16, opacity: 0.8 }}>
-        Disclaimer: Single-image 3D has inherent uncertainty. We’ll be explicit about limitations, and we won’t overpromise.
+        Disclaimer: Best-effort conversion from photos. Some products may require simplification or artistic interpretation.
+        We’ll flag risks before starting and won’t overpromise accuracy we can’t verify from your inputs.
       </footer>
     </main>
   );
