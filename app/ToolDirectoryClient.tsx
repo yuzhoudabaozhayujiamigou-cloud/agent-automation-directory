@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import type { Tool } from "@/lib/types";
+import { useDebouncedValue } from "./useDebouncedValue";
 
 function unique<T>(arr: T[]) {
   return Array.from(new Set(arr));
@@ -18,8 +19,16 @@ export default function ToolDirectoryClient({ tools }: { tools: Tool[] }) {
   const [category, setCategory] = useState("All");
   const [pricing, setPricing] = useState("All");
 
+  const debouncedQ = useDebouncedValue(q, 200);
+
+  const lastAppliedQueryRef = useRef<string>("__init__");
+
   // Initialize state from URL query params on first load / when user navigates via back/forward.
   useEffect(() => {
+    const queryString = searchParams.toString();
+    // If we just wrote this exact query string, don't immediately setState again.
+    if (queryString === lastAppliedQueryRef.current) return;
+
     const nextQ = searchParams.get("q") ?? "";
     const nextCategory = searchParams.get("category") ?? "All";
     const nextPricing = searchParams.get("pricing") ?? "All";
@@ -28,13 +37,13 @@ export default function ToolDirectoryClient({ tools }: { tools: Tool[] }) {
     setCategory(nextCategory);
     setPricing(nextPricing);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchParams]);
+  }, [searchParams.toString()]);
 
   // Keep URL in sync with state (shallow navigation, no full reload).
   useEffect(() => {
     const params = new URLSearchParams(searchParams.toString());
 
-    const trimmedQ = q.trim();
+    const trimmedQ = debouncedQ.trim();
     if (trimmedQ) params.set("q", trimmedQ);
     else params.delete("q");
 
@@ -48,8 +57,9 @@ export default function ToolDirectoryClient({ tools }: { tools: Tool[] }) {
     const curr = searchParams.toString();
     if (next === curr) return;
 
+    lastAppliedQueryRef.current = next;
     router.replace(next ? `${pathname}?${next}` : pathname, { scroll: false });
-  }, [q, category, pricing, pathname, router, searchParams]);
+  }, [debouncedQ, category, pricing, pathname, router, searchParams.toString()]);
 
   const categories = useMemo(() => ["All", ...unique(tools.map((t) => t.category)).sort()], [tools]);
   const pricings = useMemo(() => ["All", ...unique(tools.map((t) => t.pricing)).sort()], [tools]);
