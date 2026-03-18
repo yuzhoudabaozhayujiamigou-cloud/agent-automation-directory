@@ -147,6 +147,15 @@ export default function HomePage() {
         </p>
       </section>
 
+      <section className="card" style={{ marginTop: 16 }}>
+        <h2 style={{ marginTop: 0 }}>Need 3D assets for your product pages?</h2>
+        <p className="small">Try our 48h Photo → 3D (GLB) delivery service (GLB + turntable video, manual QA).</p>
+        <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+          <Link className="btn primary" href="/photo-to-3d">Photo → 3D service</Link>
+          <Link className="btn" href="/submit">Submit a tool</Link>
+        </div>
+      </section>
+
       <footer className="small" style={{ marginTop: 16, opacity: 0.8 }}>
         Disclaimer: This directory is provided as-is. We don’t guarantee accuracy or endorse listed tools.
       </footer>
