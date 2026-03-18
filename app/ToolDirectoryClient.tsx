@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import type { Tool } from "@/lib/types";
 
 function unique<T>(arr: T[]) {
@@ -9,9 +10,46 @@ function unique<T>(arr: T[]) {
 }
 
 export default function ToolDirectoryClient({ tools }: { tools: Tool[] }) {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
   const [q, setQ] = useState("");
   const [category, setCategory] = useState("All");
   const [pricing, setPricing] = useState("All");
+
+  // Initialize state from URL query params on first load / when user navigates via back/forward.
+  useEffect(() => {
+    const nextQ = searchParams.get("q") ?? "";
+    const nextCategory = searchParams.get("category") ?? "All";
+    const nextPricing = searchParams.get("pricing") ?? "All";
+
+    setQ(nextQ);
+    setCategory(nextCategory);
+    setPricing(nextPricing);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [searchParams]);
+
+  // Keep URL in sync with state (shallow navigation, no full reload).
+  useEffect(() => {
+    const params = new URLSearchParams(searchParams.toString());
+
+    const trimmedQ = q.trim();
+    if (trimmedQ) params.set("q", trimmedQ);
+    else params.delete("q");
+
+    if (category && category !== "All") params.set("category", category);
+    else params.delete("category");
+
+    if (pricing && pricing !== "All") params.set("pricing", pricing);
+    else params.delete("pricing");
+
+    const next = params.toString();
+    const curr = searchParams.toString();
+    if (next === curr) return;
+
+    router.replace(next ? `${pathname}?${next}` : pathname, { scroll: false });
+  }, [q, category, pricing, pathname, router, searchParams]);
 
   const categories = useMemo(() => ["All", ...unique(tools.map((t) => t.category)).sort()], [tools]);
   const pricings = useMemo(() => ["All", ...unique(tools.map((t) => t.pricing)).sort()], [tools]);
@@ -70,6 +108,20 @@ export default function ToolDirectoryClient({ tools }: { tools: Tool[] }) {
               </option>
             ))}
           </select>
+
+          <button
+            type="button"
+            className="btn"
+            onClick={() => {
+              setQ("");
+              setCategory("All");
+              setPricing("All");
+              router.replace(pathname, { scroll: false });
+            }}
+          >
+            Clear
+          </button>
+
           <div className="small" style={{ alignSelf: "center", opacity: 0.8 }}>
             Showing <strong>{filtered.length}</strong> / {tools.length}
           </div>

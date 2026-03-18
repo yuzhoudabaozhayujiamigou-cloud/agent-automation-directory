@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Suspense } from "react";
 import { getAllTools } from "@/lib/tools";
 import ToolDirectoryClient from "./ToolDirectoryClient";
 
@@ -45,7 +46,9 @@ export default function HomePage() {
       </header>
 
       {/* Directory */}
-      <ToolDirectoryClient tools={tools} />
+      <Suspense fallback={null}>
+        <ToolDirectoryClient tools={tools} />
+      </Suspense>
 
       <footer className="small" style={{ marginTop: 16, opacity: 0.8 }}>
         Disclaimer: This directory is provided as-is. We don’t guarantee accuracy or endorse listed tools.
