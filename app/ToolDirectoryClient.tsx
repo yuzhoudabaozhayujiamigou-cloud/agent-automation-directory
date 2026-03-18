@@ -14,6 +14,7 @@ export default function ToolDirectoryClient({ tools }: { tools: Tool[] }) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const searchString = searchParams.toString();
 
   const [q, setQ] = useState("");
   const [category, setCategory] = useState("All");
@@ -25,7 +26,7 @@ export default function ToolDirectoryClient({ tools }: { tools: Tool[] }) {
 
   // Initialize state from URL query params on first load / when user navigates via back/forward.
   useEffect(() => {
-    const queryString = searchParams.toString();
+    const queryString = searchString;
     // If we just wrote this exact query string, don't immediately setState again.
     if (queryString === lastAppliedQueryRef.current) return;
 
@@ -37,7 +38,7 @@ export default function ToolDirectoryClient({ tools }: { tools: Tool[] }) {
     setCategory(nextCategory);
     setPricing(nextPricing);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [searchParams.toString()]);
+  }, [searchString]);
 
   // Keep URL in sync with state (shallow navigation, no full reload).
   useEffect(() => {
@@ -54,12 +55,12 @@ export default function ToolDirectoryClient({ tools }: { tools: Tool[] }) {
     else params.delete("pricing");
 
     const next = params.toString();
-    const curr = searchParams.toString();
+    const curr = searchString;
     if (next === curr) return;
 
     lastAppliedQueryRef.current = next;
     router.replace(next ? `${pathname}?${next}` : pathname, { scroll: false });
-  }, [debouncedQ, category, pricing, pathname, router, searchParams.toString()]);
+  }, [debouncedQ, category, pricing, pathname, router, searchString]);
 
   const categories = useMemo(() => ["All", ...unique(tools.map((t) => t.category)).sort()], [tools]);
   const pricings = useMemo(() => ["All", ...unique(tools.map((t) => t.pricing)).sort()], [tools]);
